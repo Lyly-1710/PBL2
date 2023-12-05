@@ -1,0 +1,5 @@
+ID	Service			Price
+S1	Tam			95.000-595.000
+S2	Cao			195.000-745.000
+S3	Combo Tam + Ve sinh	145.000-695.000
+S4	Cat tao kieu		300.000-750.000
