@@ -1,0 +1,9 @@
+ID	Addon Serviceq		Price
+Ad1	Tay giun		50.000
+Ad2	Thuoc tri nam, ve ran	50.000
+Ad3	Cao ban			30.000
+Ad4	Cat mong 		30.000
+Ad5 	Ve sinh tai		40.000
+Ad6	Cat tia			50.000-150.000
+Ad7	Go roi			50.000-250.000
+Ad8	Cao mat, tai		50.000
