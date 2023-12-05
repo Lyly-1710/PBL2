@@ -10,14 +10,14 @@ Service::Service(const std::string &id, const std::string &n, const std::string 
 {}
 
 // Function to display service details
- void display() {
+ void Service::display() {
         Node* temp = head;
         while (temp) {
             std::cout << temp->ID << "\t" << temp->serviceName << "\t" << temp->priceRange << std::endl;
             temp = temp->next;
         }
     }
-bool editData(const std::string& id, const std::string& newName, const std::string& newRange) {
+bool Service::editData(const std::string& id, const std::string& newName, const std::string& newRange) {
         Node* temp = head;
         while (temp) {
             if (temp->ID == id) {
@@ -30,7 +30,7 @@ bool editData(const std::string& id, const std::string& newName, const std::stri
         return false; // Không tìm thấy ID
     }
     
-void updateFile(const std::string& filename, LinkedList& list) {
+void Service::updateFile(const std::string& filename, LinkedList& list) {
     std::ofstream outputFile(filename);
     if (!outputFile.is_open()) {
         std::cerr << "Error opening file for writing." << std::endl;
