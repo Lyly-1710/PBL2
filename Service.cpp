@@ -4,12 +4,9 @@
 #include <fstream>
 #include <sstream>
 
-// Constructor to initialize data members
 Service::Service(const std::string &id, const std::string &n, const std::string &pr)
     : ID(id), Name(n), Price(pr) 
 {}
-
-// Function to display service details
  void Service::display() {
         Node* temp = head;
         while (temp) {
